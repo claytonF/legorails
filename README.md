@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Merch
 
 ## a shop that sells products
@@ -37,3 +38,7 @@
 REpresentational State Transfer
 
 it is technobabble for HTTP convention expressed through server side code
+=======
+# legorails
+Lego collection site using rails
+>>>>>>> fbcc5530cbae8bbfb4f0ec85992576ccb364f56b
