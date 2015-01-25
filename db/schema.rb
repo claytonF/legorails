@@ -11,6 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20150123100141) do
+
+  create_table "legosets", force: true do |t|
+    t.integer  "modelnumber"
+    t.text     "theme"
+    t.text     "subtheme"
+    t.date     "releaseyear"
+    t.text     "description"
+    t.integer  "pieces"
+    t.integer  "bricksetversion"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end
